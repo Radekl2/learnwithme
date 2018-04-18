@@ -13,14 +13,14 @@
 				<li><a href="#opis">Opis projektu</a></li>
 				<li><a href="#zespol">Zespół projektowy</a></li>
 				<li><a href="#prototyp">Prototyp</a></li>
-					<ul>
+					<ul style="margin-left:15px;">
 						<li><a href="#widoki">Widoki ekranów</a></li>
 						<li><a href="#linkprot">Link</a></li>
 					</ul>
-				<li><a href="#linki">Przydatne linki</a></li>
+				<li style="margin-top:0px;"><a href="#linki">Przydatne linki</a></li>
 			</ul>
 		</div>
-		<h3 id="opis" style="color:#ffffff;">Opis aplikacji</h3>
+		<h3 id="opis" style="color:#000000;">Opis aplikacji</h3>
 		<p>
 			Aplikacja „LearnWithMe”  ma umożliwiać użytkownikom (studentom UEK) organizowanie wspólnej nauki 
 			w myśl zasady „co dwie głowy, to nie jedna”. Każdy student, chcąc pożytecznie wykorzystać czas przed, 
@@ -34,14 +34,14 @@
 			taka zmiana nastąpi, do użytkowników, którzy zadeklarowali chęć uczestniczenia, zostanie wysłane 
 			powiadomienie.
 		</p>
-		<h3 id="zespol">Autorzy aplikacji</h3>
+		<h3 id="zespol" style="color:#000000;">Autorzy aplikacji</h3>
 		<p>
 			Joanna Pełeńska, 187772, KrDUIs1012 <br>
 			Paweł Grzyb, 186522, KrDUIs1011 <br>
 			Łukasz Pudzisz, 187924, KrDUIs1011 <br>
 			Radosław Smyksy, 188182, KrDUIs1012 <br>
 		</p>
-		<h3 id="prototyp">Prototyp aplikacji</h3>
+		<h3 id="prototyp" style="color:#000000;">Prototyp aplikacji</h3>
 		<p>
 			Prototyp aplikacji został wykonany przy pomocy narzędzia Marvelapp.
 		</p>
@@ -56,7 +56,7 @@
 		<p id="linkprot">
 			Całość można znaleźć pod adresem: <a href="https://marvelapp.com/158839cg/screen/41194569">PROTOTYP</a>
 		</p>
-		<h3 id="linki">Przydatne linki</h3>
+		<h3 id="linki" style="color:#000000;">Przydatne linki</h3>
 		<p>
 			<a href="https://github.com/joanna19uek/learnwithme">Repozytorium</a><br>
 			<a href="https://trello.com/b/l0KEcqv4/learnwithme">Trello</a><br>
