@@ -13,7 +13,7 @@
 				<li><a href="#opis">Opis projektu</a></li>
 				<li><a href="#zespol">Zespół projektowy</a></li>
 				<li><a href="#prototyp">Prototyp</a></li>
-					<ul style="margin-left:15px;">
+					<ul style="margin-left:15px;margin-bottom:0px;">
 						<li><a href="#widoki">Widoki ekranów</a></li>
 						<li><a href="#linkprot">Link</a></li>
 					</ul>
