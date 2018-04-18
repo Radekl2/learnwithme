@@ -47,11 +47,11 @@
 		</p>
 		<div id="widoki" style="width:600px;">
 			<p>Przykładowe ekrany.</p>
-			<img src="startowy.png" style="width:30%;"/>
-			<img src="glowny.png" style="width:30%;"/>
-			<img src="dodajogloszenie.png" style="width:30%;"/>
-			<img src="ogloszenie.png" style="width:30%;"/>
-			<img src="menu.png" style="width:30%;"/>
+			<img src="https://raw.githubusercontent.com/Radekl2/learnwithme/master/www/img/startowy.PNG" style="width:30%;"/>
+			<img src="https://raw.githubusercontent.com/Radekl2/learnwithme/master/www/img/glowny.PNG" style="width:30%;"/>
+			<img src="https://raw.githubusercontent.com/Radekl2/learnwithme/master/www/img/dodajogloszenie.PNG" style="width:30%;"/>
+			<img src="https://raw.githubusercontent.com/Radekl2/learnwithme/master/www/img/ogloszenie.PNG" style="width:30%;"/>
+			<img src="https://raw.githubusercontent.com/Radekl2/learnwithme/master/www/img/menu.PNG" style="width:30%;"/>
 		</div>
 		<p id="linkprot">
 			Całość można znaleźć pod adresem: <a href="https://marvelapp.com/158839cg/screen/41194569">PROTOTYP</a>
