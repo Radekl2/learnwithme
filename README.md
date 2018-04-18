@@ -20,7 +20,7 @@
 				<li><a href="#linki">Przydatne linki</a></li>
 			</ul>
 		</div>
-		<h3 id="opis">Opis aplikacji</h3>
+		<h3 id="opis" style="color:#ffffff;">Opis aplikacji</h3>
 		<p>
 			Aplikacja „LearnWithMe”  ma umożliwiać użytkownikom (studentom UEK) organizowanie wspólnej nauki 
 			w myśl zasady „co dwie głowy, to nie jedna”. Każdy student, chcąc pożytecznie wykorzystać czas przed, 
