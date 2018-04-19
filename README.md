@@ -80,7 +80,7 @@
 				<p style="margin-top:3px;">3. <a href="">Arkusz z wykazem prac</a></p>
 			</p>
 		</div>
-		<footer style="position:fixed; bottom:2%; left:0; width: 100%; text-align:right; border:0; margin:0; padding:0; border-top:0px none transparent;">
+		<footer style="position:fixed; bottom:2%; left:0; width: 100%; text-align:right; border:0; margin:0; padding:0; border-top:0px none transparent; border: none!important;">
 		<a href="#poczatek" style="margin-right:20px; background-color;">W górę</a>
 		</footer>
     </body>
