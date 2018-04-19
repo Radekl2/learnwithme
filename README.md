@@ -18,8 +18,8 @@
 						<li><a href="#widoki">Widoki ekranów</a></li>
 						<li><a href="#linkprot">Link</a></li>
 					</ul>
-				<li><a href="#linki">Przydatne linki</a></li>
 				<li><a href="#zespol">Zespół projektowy</a></li>
+				<li><a href="#linki">Przydatne linki</a></li>
 			</ul>
 		</div>
 		<hr>
@@ -80,7 +80,7 @@
 				<p style="margin-top:3px;">3. <a href="">Arkusz z wykazem prac</a></p>
 			</p>
 		</div>
-		<footer style="position:fixed; bottom:2%; left:0; width: 100%; text-align:right; border:0; margin:0; padding:0; border-top:5px solid red;">
+		<footer style="position:fixed; bottom:2%; left:0; width: 100%; text-align:right; border:0; margin:0; padding:0; border-top:0px none transparent;">
 		<a href="#poczatek" style="margin-right:20px; background-color;">W górę</a>
 		</footer>
     </body>
