@@ -1,0 +1,364 @@
+#loginPage {
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #799AC0 !important;
+    color: #ffffff !important;
+    text-align: left !important;
+}
+
+.ui-icon-fbicon:after {
+    background-image: url("../icon/circle-facebook.png");
+    background-size: 20px 20px;
+}
+
+.ui-icon-gicon:after {
+    background-image: url("../icon/google.png");
+}
+
+#zaloguj {
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+#zalogujFB {
+    background-color: #3b5998;
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+#zalogujG {
+    background-color: #d62d20;
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.backbutt, .menubtn {
+    margin-left: 5px !important;
+    background-color: transparent !important;
+    border: 0 !important;
+    float: left !important;
+    margin-top: 3px !important;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+[data-role="footer"] {
+	background-color: #ffffff !important;
+	border: 0 !important;
+    text-align: center;
+}
+
+#regPage {
+	background-color: #ffffff;
+}
+
+#zarejestruj {
+	background-color: #00A6FF;
+	color: #ffffff;
+    font-size: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+#logost {
+	width: 90%;
+	margin-bottom: 15%;
+}
+
+#glownyst {
+	text-align: center;
+}
+
+#startPage {
+	background-color: #ffffff;
+}
+
+#zarejestrujst, #zalogujst {
+	background-color: #47525E;
+	color: #ffffff;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#finrejhead {
+	margin: 0;
+}
+
+#afterRegPage {
+	background-color: #ffffff;
+}
+
+#aftRegCom {
+	margin-left: 30px;
+	text-align: justify;
+}
+#aftRegCom > h2 {
+	text-align:center;
+}
+#downArrow {
+	width:30%;
+	margin-top: 80px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#przejdzDoSerwisu {
+	margin-top: 40px!important;
+	background-color: #47525E;
+	color: #ffffff;
+	font-size: 15;
+	display:block;
+	width:50%;
+	margin:0 auto;
+}
+
+#controlBtns, #controlBtnsAd, #controlBtnsWat {
+    background-color: #799AC0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#all, #added, #watched, #allAd, #addedAd, #watchedAd, #allWat, #addedWat, #watchedWat {
+    width: 33.3%;
+    float: left;
+    background-color: #799AC0;
+    color: #ffffff;
+    font-size: 12px;  
+    text-shadow: 0;
+    opacity: 0.6;
+    border: 1px solid #000000;
+    border-radius: 0;
+}
+
+#all, #addedAd, #watchedWat {
+    opacity: 1;
+    
+}
+
+.dodajBtn{
+    position: absolute !important;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(50, 50, 50, 0.5) !important;
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50px !important;
+    border: 0 !important;
+    color: #ffffff !important;    
+    padding: 0px;
+    font-size: 40px !important;
+}
+
+#footmain, #footmainAd, #footmainWat {
+    background-color: transparent!important;
+   
+}
+
+#mainAll, #mainAdd, #mainWatched {
+    background-color: #5F7C9F;
+}
+
+.container{
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 15px;
+    padding-top: 01px;
+    margin-bottom: 10px;
+}
+
+.bookic{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    float: right;
+    margin-top: 3px;
+    margin-right: 15px
+}
+
+.undimg{
+    position: absolute;
+    top: 55%;
+    right: 40px;
+    float: right;
+    text-align: right;
+}
+
+.infoAboutMeeting{
+    margin-left: 10px;
+}
+
+#usersAnnDetails, #usersAnnMyDetails {
+    margin: 0;
+    border-top: 1px solid #000000;
+}
+
+#infosDetails, #infosMyDetails {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+#imgDetails {
+    position: absolute;
+    float: right;
+    right: 10%;
+    bottom: 10%;
+    width: 30%;
+}
+
+#myDetailsFooter {
+    background-color: transparent!important;
+}
+
+#odwolaj, #edytuj {
+    width: 90%;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 0;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#odwolaj {
+    background-color: #F50005;
+}
+
+#edytuj {
+    background-color: #8942EA;
+}
+
+#newAnnHed, #editAnnHed {
+    margin: 0;
+}
+
+#cancBtnNewAnn, #cancBtnEditAnn {
+    float: left;
+    width: 47%;
+    margin-left: 3%;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 0;
+    background-color: #F95F62;
+    color: #ffffff;
+}
+
+#addBtnNewAnn, #saveBtnEditAnn {
+    float: right;
+    width: 47%;
+    margin-right: 3%;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 0;
+    background-color: #00A6FF;
+    color: #ffffff;
+}
+
+#deleteBtnEditAnn {
+    width: 94%;
+    background-color: #F70005;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#cancBtnEditAnn {
+    background-color: #9B6712;
+}
+
+#saveBtnEditAnn {
+    background-color: #00A6FF;
+}
+
+#footerNewAnn {
+    background-color: transparent!important;
+}
+
+#kontaktBtn {
+    background-color: #00A6FF;
+    color: #ffffff;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    border:0;
+}
+
+#Pawel {
+    background-color: #34910d;
+    height: 200px;
+    border: 3px solid #000000;
+    color: #ffffff;
+}
+
+#Asiam {
+    background-color: #ef098f;
+    height: 200px;
+    border-top: 1.5px solid #000000;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    color: #ffffff;
+}
+
+#Rudzisz {
+    background-color: #c19219;
+    height: 200px;
+    border-top: 1.5px solid #000000;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    color: #ffffff;
+}
+
+#Radek {
+    background-color: #09c4ef;
+    height: 200px;
+    margin-bottom: 40px;
+    border-top: 1.5px solid #000000;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    color: #ffffff;
+}
+
+#authors {
+    background-color: #c1bbb6;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+#kontaktFooter {
+    background-color: transparent!important;
+}
+
+#PawTekst, #AsTekst, #LukTekst, #RadTekst {
+    text-align: justify;
+    margin: 7px;
+    text-indent: 15px;
+}
+
+.annKey {
+    display: none;
+
+}
