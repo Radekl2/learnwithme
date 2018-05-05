@@ -7,7 +7,7 @@ function goToSite(id){
 (function() {
 	// Initialize Firebase
 	var config = {
-		apiKey: "AIzaSyC2E9hI9X2e2KCHyEiaz5vcaFXOFvY0HQc",
+		apiKey: "AIzaSyBpHX7UlYiPCqkTRxFOi6bisAspEvOGMa4",
 		authDomain: "learnwithme-98129.firebaseapp.com",
 		databaseURL: "https://learnwithme-98129.firebaseio.com",
 		projectId: "learnwithme-98129",
