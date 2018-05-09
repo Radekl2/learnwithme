@@ -9,6 +9,5 @@
     <platform name="android" />
 
     <plugin name="cordova-plugin-device" spec="~1.1.4" />
-    <plugin name="cordova-plugin-email" spec="1.2.7" />
     <gap:plugin name="cordova-plugin-email-composer" version="0.8.3" source="npm" />
 </widget>

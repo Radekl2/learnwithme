@@ -1,3 +1,17 @@
+function senddd()
+{
+  
+ 
+    cordova.plugins.email.open({
+    to:      'max@mustermann.de',
+    cc:      'radek.smyko@wp.pl',
+    bcc:     ['john@doe.com', 'jane@doe.com'],
+    subject: 'Greetings',
+    body:    'How are you? Nice greetings from Leipzig'
+});
+
+}
+
 function goToSite(id){  
   //window.location.href+='#' + id;
   var anch = document.createElement('a');
@@ -230,17 +244,3 @@ function chartClick(){
   });
 }
 
-function send()
-{
-  document.addEventListener('deviceready', function () {
-    // window.plugin.email is now available
-}, false);
-   cordova.plugins.email.open({
-    to:      'max@mustermann.de',
-    cc:      'erika@mustermann.de',
-    bcc:     ['john@doe.com', 'jane@doe.com'],
-    subject: 'Greetings',
-    body:    'How are you? Nice greetings from Leipzig'
-});
-   alert("Hi");
-}
