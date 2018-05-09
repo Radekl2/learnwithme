@@ -230,21 +230,9 @@ function chartClick(){
   });
 }
 function send() {
-  alert("is email mobile available? ");
-  /*
-document.addEventListener('deviceready', function () {
-    cordova.plugins.email.isAvailable(
-        function (isAvailable) {
-            alert("is email mobile available? " + (isAvailable ? "Yes" : "No"));
-            if(isAvailable){
              window.plugin.email.open({
                  to:      'test@test.com',
                  subject: 'Greetings',
                  body:    'How are you? Nice greetings from Leipzig'
              });
-           }
-        }
-    );
-}, false);
-*/
 }
