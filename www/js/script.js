@@ -230,6 +230,8 @@ function chartClick(){
   });
 }
 function send() {
+  alert("is email mobile available? ");
+  /*
 document.addEventListener('deviceready', function () {
     cordova.plugins.email.isAvailable(
         function (isAvailable) {
@@ -244,4 +246,5 @@ document.addEventListener('deviceready', function () {
         }
     );
 }, false);
+*/
 }
