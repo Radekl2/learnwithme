@@ -229,18 +229,12 @@ function chartClick(){
     }
   });
 }
-function init() {
-  document.addEventListener("deviceready",onDeviceReady, false);
-  
-}
-
-function onDeviceReady() {
-  navigator.notification.beep(2);
-}
 
 function send()
 {
-  document.addEventListener('deviceready', onDeviceReady {
+  document.addEventListener('deviceready', function () {
+    // window.plugin.email is now available
+}, false);
    cordova.plugins.email.open({
     to:      'max@mustermann.de',
     cc:      'erika@mustermann.de',
@@ -248,5 +242,5 @@ function send()
     subject: 'Greetings',
     body:    'How are you? Nice greetings from Leipzig'
 });
-}, false);
+   alert("Hi");
 }
