@@ -9,6 +9,7 @@
     <platform name="android" />
 
     <plugin name="cordova-plugin-device" spec="~1.1.4" />
-    <plugin name="cordova-plugin-email-composer" />
-    <access origin="mailto:*" launch-external="yes" />
+    <plugin name="cordova-plugin-email-composer" spec="0.8.15" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+
 </widget>
