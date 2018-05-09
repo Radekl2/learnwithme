@@ -230,7 +230,7 @@ function chartClick(){
   });
 }
 function send() {
-             window.plugin.email.open({
+             cordova.plugins.email.open({
                  to:      'test@test.com',
                  subject: 'Greetings',
                  body:    'How are you? Nice greetings from Leipzig'
