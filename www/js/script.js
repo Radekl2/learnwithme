@@ -230,7 +230,7 @@ function chartClick(){
   });
 }
 
-function send() {
+document.addEventListener('deviceready', function send() {
     cordova.plugins.email.isAvailable(
         function (isAvailable) {
 
@@ -241,6 +241,6 @@ function send() {
            });
         }
     );
-}
+}, false);
 
 
