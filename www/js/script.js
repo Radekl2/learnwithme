@@ -229,10 +229,18 @@ function chartClick(){
     }
   });
 }
+function init() {
+  document.addEventListener("deviceready",onDeviceReady, false);
+  
+}
+
+function onDeviceReady() {
+  navigator.notification.beep(2);
+}
 
 function send()
 {
-  document.addEventListener('deviceready', function () {
+  document.addEventListener('deviceready', onDeviceReady {
    cordova.plugins.email.open({
     to:      'max@mustermann.de',
     cc:      'erika@mustermann.de',
