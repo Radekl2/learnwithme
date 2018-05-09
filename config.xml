@@ -10,4 +10,5 @@
 
     <plugin name="cordova-plugin-device" spec="~1.1.4" />
     <plugin name="cordova-plugin-email-composer" />
+    <access origin="mailto:*" launch-external="yes" />
 </widget>
