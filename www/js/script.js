@@ -1,15 +1,17 @@
-function senddd()
-{
-  
- 
-    cordova.plugins.email.open({
-    to:      'max@mustermann.de',
-    cc:      'radek.smyko@wp.pl',
-    bcc:     ['john@doe.com', 'jane@doe.com'],
-    subject: 'Greetings',
-    body:    'How are you? Nice greetings from Leipzig'
-});
+function init() {
+  document.addEventListener("deviceready", onDeviceReady, false);
+   
+}
 
+function onDeviceReady() {
+   checkNet();
+}
+
+function checkNet() {
+    var networkState = navigator.connection.type;
+    if (networkState == Connection.NONE){
+         alert('Nie masz Internetu. Aplikacja nie będzie działała poprawnie.');      
+    }
 }
 
 function goToSite(id){  
